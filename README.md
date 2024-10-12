@@ -34,11 +34,15 @@ The final plan: https://docs.google.com/spreadsheets/d/1aGdouEsXQkD_rF0C4O6q5vfO
  
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+<img width="1789" alt="MakeAllBuildPipeline-1" src="https://github.com/user-attachments/assets/762984d6-4515-4357-bfa0-0fdf747bbdad">
 
 
 * Output of a test run
 
 * Successful deploy of the project in Azure Pipelines.
+<img width="1777" alt="DeployWebAppSuccess-3" src="https://github.com/user-attachments/assets/f3be8a87-fa9e-461f-9b9a-de46e84f1c63">
+
+ 
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
@@ -53,6 +57,9 @@ udacity@Azure:~$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[2.431574790057212]}
 ```
+<img width="1792" alt="MakePrediction" src="https://github.com/user-attachments/assets/65c7a08c-2f99-456a-b215-a9a571b47e3e">
+
+
 ## Make prediction from postman
 <img width="1331" alt="Screen Shot 2024-10-12 at 18 49 37" src="https://github.com/user-attachments/assets/b7222754-f8a6-4d58-83cd-01796bd0a108">
 
