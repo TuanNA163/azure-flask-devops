@@ -29,11 +29,9 @@ The final plan: https://docs.google.com/spreadsheets/d/1aGdouEsXQkD_rF0C4O6q5vfO
 ## Instructions
 
 * Project running on Azure App Service
-
-
+ 
 * Project cloned into Azure Cloud Shell
-* 
-
+ 
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
@@ -41,8 +39,6 @@ The final plan: https://docs.google.com/spreadsheets/d/1aGdouEsXQkD_rF0C4O6q5vfO
 * Output of a test run
 
 * Successful deploy of the project in Azure Pipelines.
-
-
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
@@ -57,6 +53,8 @@ udacity@Azure:~$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[2.431574790057212]}
 ```
+## Make prediction from postman
+<img width="1331" alt="Screen Shot 2024-10-12 at 18 49 37" src="https://github.com/user-attachments/assets/b7222754-f8a6-4d58-83cd-01796bd0a108">
 
 
 * Output of streamed log files from deployed application
