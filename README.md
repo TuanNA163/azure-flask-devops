@@ -6,6 +6,7 @@ both Continuous Integration and Continuous Delevery.
  2. Integrating this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
  3. Using Azure Cloud shell in this project
 Architectural Diagram
+<img width="621" alt="Screen Shot 2024-10-12 at 19 37 07" src="https://github.com/user-attachments/assets/b44a19b9-5f8c-418d-94c0-250d83a9b276">
 
 
 Instructions for running the Python project
@@ -31,20 +32,22 @@ The final plan: https://docs.google.com/spreadsheets/d/1aGdouEsXQkD_rF0C4O6q5vfO
 * Project running on Azure App Service
  
 * Project cloned into Azure Cloud Shell
- 
+ ![Uploading Screen Shot 2024-10-12 at 19.39.06.png…]()
+
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 <img width="1789" alt="MakeAllBuildPipeline-1" src="https://github.com/user-attachments/assets/762984d6-4515-4357-bfa0-0fdf747bbdad">
 
 
 * Output of a test run
+<img width="692" alt="Screen Shot 2024-10-12 at 19 38 32" src="https://github.com/user-attachments/assets/2a1fe86e-0424-43e6-811d-d7976d5d9a79">
 
 * Successful deploy of the project in Azure Pipelines.
 <img width="1777" alt="DeployWebAppSuccess-3" src="https://github.com/user-attachments/assets/f3be8a87-fa9e-461f-9b9a-de46e84f1c63">
 
  
-
 * Running Azure App Service from Azure Pipelines automatic deployment
+<img width="1791" alt="Screen Shot 2024-10-12 at 19 38 08" src="https://github.com/user-attachments/assets/23e8f638-3c58-4d8a-b349-268db4571a11">
 
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction]([(https://github.com/TuanNA163/flask-learn-udacity/blob/main/make_predict_azure_app.sh)]).
@@ -66,6 +69,5 @@ Port: 443
 
 * Output of streamed log files from deployed application
 
-## Demo 
-
-<TODO: Add link Screencast on YouTube>
+## Demo work
+Here is my demo work: https://youtu.be/vLxn2csQMzE
