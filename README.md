@@ -29,18 +29,33 @@ The final plan: https://docs.google.com/spreadsheets/d/1aGdouEsXQkD_rF0C4O6q5vfO
 
 ## Instructions
 
+* Generate SSH-Keygen and add it into github
+<img width="1779" alt="Screen Shot 2024-10-13 at 13 08 32" src="https://github.com/user-attachments/assets/4075396c-2e8e-4fd7-8f76-3e11979d2e3b">
+
+
+
 * Project running on Azure App Service
+<img width="1783" alt="makeall_azurecloudshell" src="https://github.com/user-attachments/assets/8d7a0e85-64c7-4451-a2b7-826afb8ddec3">
+
  
 * Project cloned into Azure Cloud Shell
  ![Uploading Screen Shot 2024-10-12 at 19.39.06.png…]()
+
+<img width="1792" alt="Screen Shot 2024-10-13 at 13 09 30" src="https://github.com/user-attachments/assets/dc01124b-ed87-4eea-b654-e2be9d7fdf8b">
 
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 <img width="1789" alt="MakeAllBuildPipeline-1" src="https://github.com/user-attachments/assets/762984d6-4515-4357-bfa0-0fdf747bbdad">
 
-
+*
 * Output of a test run
 <img width="692" alt="Screen Shot 2024-10-12 at 19 38 32" src="https://github.com/user-attachments/assets/2a1fe86e-0424-43e6-811d-d7976d5d9a79">
+* Out of make all test run
+<img width="1783" alt="makeall_azurecloudshell" src="https://github.com/user-attachments/assets/c8d20ac1-981d-40f4-a537-20d3b2227055">
+
+* GitHub Actions Build success ![Build Status](https://github.com/TuanNA163/udacity-ci-cd-pipeline/actions/workflows/pythonapp.yml/badge.svg)
+<img width="897" alt="GitHubActionsRunSuccess" src="https://github.com/user-attachments/assets/ac01aa2d-69a2-4538-b711-81d9ee275154">
+
 
 * Successful deploy of the project in Azure Pipelines.
 <img width="1777" alt="DeployWebAppSuccess-3" src="https://github.com/user-attachments/assets/f3be8a87-fa9e-461f-9b9a-de46e84f1c63">
